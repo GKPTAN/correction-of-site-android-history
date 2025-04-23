@@ -1,11 +1,25 @@
 @media (max-width: 375px) {
-       header {
-        padding-bottom: 10px;
-       }
+    div.video {
+        max-width: 240px;
+        margin: 0px -40px 30px 0px;
+    }
 }
 
 @media (max-width: 425px) {
     header {
-     padding-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    header > p {
+        margin-bottom: 30px;
+    }
+    nav {
+        padding-bottom: 20px;
+    }
+    nav ul {
+        gap: 0;
+        justify-content: space-around;
+    }
+    nav ul li {
+        width: min-content;
     }
 }
